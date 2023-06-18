@@ -26,4 +26,8 @@ public class AnuncioService {
         return anuncioRepository.findAll();
     }
 
+    public Anuncio save(Anuncio anuncio) {
+        return anuncioRepository.save(anuncio);
+    }
+
 }
